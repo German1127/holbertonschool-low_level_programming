@@ -1,3 +1,4 @@
+gcc 
 int main() 
 {
 	 putchar (puts(Programming is like building a multilingual puzzle);
