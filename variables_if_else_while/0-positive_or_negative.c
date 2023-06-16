@@ -11,11 +11,13 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-if (n > 0);
-printf("The number is positive\n");
-elif (n < 0);
-printf("The number is negative\n");
-else;
-printf("The number is zero\n")
+printf("The number %d is", n);
+if (n > 0){
+printf("positive\n");
+}else if (n < 0) {
+printf("negative\n");
+}else{
+printf("zero\n");
+}
 return (0);
 }
