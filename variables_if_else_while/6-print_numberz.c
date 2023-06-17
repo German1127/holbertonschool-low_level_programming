@@ -4,6 +4,8 @@
 *
 * Return: always 0 (success)
 */
+int putchar(int c);
+
 int main(void) 
 {
 	int number;
