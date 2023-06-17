@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <unistd.h>
 /*
 * main - entry point
 *
@@ -7,12 +7,15 @@
 int main (void)
 {
 	int number;
+	char buffer[2]
 
-	printf("Single-sigit numbers in base 10:\n ");
+	write(1,"Base 10 single digit numbers	10:\n ",32);
 	for (number = 0; number < 10; number++)
 	{
-		printf("%d ", number);
+		buffer[0] = '0' + number;
+		buffer[1] = ' ';
+		write(1, buffer, 2);
 	}
-	printf("\n");
+	write(1,"\n", 1);
 	return(0);
 }
