@@ -9,7 +9,7 @@ int main(void)
 int i;
 
 printf("base digits 10: ");
-if (i = 0; i < 10; i++)
+for(i = 0; i < 10; i++)
 {
 printf("%d ", i);
 }
