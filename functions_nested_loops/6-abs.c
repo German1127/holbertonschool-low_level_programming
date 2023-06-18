@@ -6,8 +6,9 @@
  *
  * Return: Absolute of r
  */
-int _abs(int)
+int _abs(int num)
 {
+	int r;
 	if (r >= 0)
 		return (r);
 	else
