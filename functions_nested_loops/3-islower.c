@@ -9,8 +9,8 @@ int _islower(int c)
 	char x;
 	int lowercase = 0;
 
-	for (x = 'a'; x <= 'z'; ++)
+	for (x = 'a'; x <= 'z'; x++)
 		if (x == c)
-			lowercase =1;
+			lowercase = 1;
 	return (lowercase);
 }
