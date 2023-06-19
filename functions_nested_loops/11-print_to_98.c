@@ -6,10 +6,17 @@
  */
 void print_to_98(int n)
 {
+	int con;
 
-		for (n = 0; n <= 98; n++)
-		{
-			_putchar("%d\n", n);
-		}
-		return (0);
+	if (n <= 98)
+	{
+		for (con = n; con <= 97; con++)
+			printf("%d, ", con);
+	}
+	else
+	{
+		for (con = n; con >= 97; con--)
+			printf("%d, ", con);
+	}
+	printf("98\n");
 }
