@@ -1,9 +1,9 @@
 #include <stdio.h>
 /*
-* main - entry point
-*
-* Return: always 0 (success)
-*/
+ * main - Main function of the program
+ *
+ * Return: Always returns 0 (Success)
+ */
 int main(void)
 {
 	int number;
