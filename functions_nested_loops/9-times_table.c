@@ -1,15 +1,38 @@
 #include "main.h"
 /**
- * main - check the code
+ * times_table - Checker
  *
- * Return: Always 0.
  */
 void times_table(void)
 {
-	int i;
-	for (i = 0; i <= 10; i++)
+	int a, b, c;
+
+	for(a = 0; a <= 9; a++)
 	{
-		printf("9 x %d = %d\n", i 9 * i);
+		for(b = 0; b <= 9; b++)
+		{
+			c = a *b;
+			if ((b / 10) == 0)
+			{
+				if( b != 0)
+					_putchar(' ');
+				_putchar(c + 48);
+
+				if (b ==9)
+					continue;
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar((c / 10) + 48);
+				_putchar((c % 10) + 48);
+				if (b == 9)
+					continue;
+				_putchar(',');
+				_putchar(' ');
+			}
+		}
+		:putchar('\n');
 	}
-	return (0);
 }
