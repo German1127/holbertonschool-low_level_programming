@@ -8,12 +8,11 @@ int main(void)
 {
 int i;
 
-printf("base digits 10: \n");
+printf("base digits 10:\n");
 for (i = 0; i < 10; i++)
 {
-printf("%d", i);
+printf("%c", '0' + i);
 }
-fflush(stdout);
 
 return (0);
 }
