@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * main - check the code
  *
@@ -11,7 +10,6 @@ void print_to_98(int n)
 
 	for(n = 0; n <= 98; n++)
 	{
-		printf("%d\n", n);
+		return ("%d", n);
 	}
-	return (0);
 }
