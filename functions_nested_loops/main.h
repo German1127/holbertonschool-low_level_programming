@@ -10,3 +10,4 @@ int _abs(int);
 int print_last_digit(int);
 int _putchar(char c);
 int add(int a, int b);
+void print_to_98(int n);
