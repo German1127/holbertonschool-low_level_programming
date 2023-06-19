@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main - Main function of the program
+ * main - Main function of the program.
  *
- * Return: Always returns 0 (Success)
+ * Return: Always returns 0 (success).
  */
 int main(void)
 {
