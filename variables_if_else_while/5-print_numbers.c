@@ -6,11 +6,13 @@
  */
 int main(void)
 {
-int i;
-char digits[] = "0123456789";
+	int i;
 
-printf("base digits 10:\n");
-printf("%s\n", digits);
+	printf("base digits 10:\n");
+	for (i = 0; i < 10; i++)
+	{
+		printf("%c", '0' + i);
+	}
 
-return (0);
+	return (0);
 }
