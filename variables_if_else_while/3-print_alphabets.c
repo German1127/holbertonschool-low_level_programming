@@ -13,7 +13,6 @@ for (letter = 'a'; letter <= 'z'; letter++)
 printf("%c", letter);
 }
 
-printf("\n");
 for (letter = 'A'; letter <= 'Z'; letter++)
 {
 printf("%c", letter);
