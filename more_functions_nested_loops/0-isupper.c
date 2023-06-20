@@ -8,11 +8,11 @@ int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
-	Returns 1;
+		return 1;
 	}
 else
 {
-	Returns 0;
+	return 0;
 }
 return (0);
 }
