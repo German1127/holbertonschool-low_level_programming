@@ -1,1 +1,12 @@
-lsll
+CC = gcc
+CFLAGS = -Wall -Wextra
+
+TARGET = escuela
+
+all: $(TARGET)
+
+$(TARGET): main.c
+		$(CC) $(CFLAGS) -o $@ $<
+
+clean:
+		rm -f $(TARGET)
