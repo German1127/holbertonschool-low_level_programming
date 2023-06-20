@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
+ * print_to_98 - prints all numbers to 98
+ * @n: a number
  *
- * Return: Always 0.
+ * Return: eeded
  */
 void print_to_98(int n)
 {
