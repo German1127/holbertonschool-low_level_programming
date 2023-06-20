@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
+ *_isupper - oioioioijj
  *
  */
 int _isupper(int c)
