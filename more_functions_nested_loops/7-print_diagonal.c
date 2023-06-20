@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- *  * print_diagonal - Checker
- *   *
- *    * @n: Parameter to check
- *     *
- *      * Return: Always 0
- *       */
+ * print_diagonal - Checker
+ *
+ * @n: Parameter to check
+ *
+ * Return: Always 0
+ */
 void print_diagonal(int n)
 {
 	int a = 0, c;
