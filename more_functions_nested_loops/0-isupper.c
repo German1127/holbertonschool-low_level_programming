@@ -8,11 +8,11 @@ int _isupper(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
-	printf("1");
+	printf("%d: ",1);
 	}
 else
 {
-	printf("0");
+	printf("%d: ",0);
 }
 return (0);
 }
