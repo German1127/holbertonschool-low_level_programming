@@ -8,19 +8,16 @@
  */
 int _isdigit(int c)
 {
-		char a = '0';
-		int b = 0;
+	char a = '0';
+	int b = 0;
 
-		for (; a <= '9'; a++)
+	for(; a <= '9'; a++)
+	{
+		if (a == c)
 		{
-				if (a == c)
-		        {
-					b = 1;
-					break;
-																
-				}
-								
-	    }
-return (b);
-					
+			b = 1;
+			break;
+		}
+	}
+	return (b);
 }
