@@ -1,8 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_isupper - oioioioijj
+ * _isupper - Verifica si un carácter es una letra mayúscula.
+ * @c: El carácter a verificar.
  *
+ * Return: 1 si el carácter es una letra mayúscula, 0 de lo contrario.
  */
 int _isupper(int c)
 {
