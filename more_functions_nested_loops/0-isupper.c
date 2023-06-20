@@ -5,13 +5,11 @@
  *
  */
 int _isupper(int c)
+	if (c >= 'A' && c >= 'Z')
 {
-	{
-if (isupper(c))
-printf("0");
-	}
-{
-	else(isupper(C))
-		printf("1");
+	printf("1");
 }
+else
+{
+	printf("0");
 }
