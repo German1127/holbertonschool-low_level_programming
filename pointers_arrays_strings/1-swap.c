@@ -1,8 +1,8 @@
 #include "main.h"
-/**
- * main - check the code
+/*
+ * Definition of the swap_int function
  *
- * Return: Always 0.
+ * Swaps the values of two integer variables
  */
 void swap_int(int *a, int *b){
 	int temp = *a;
