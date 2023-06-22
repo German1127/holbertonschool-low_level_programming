@@ -7,9 +7,8 @@
  */
 int _strlen(char *s)
 {
-const char *s = "My first strlen!";
-size_t length = strlen *s;
-_putchar("Long de la cadena: %zu\n", length);
+char *s = "My first strlen!";
+int length = strlen(chain);
+_putchar("chain length '%s' is: %d, chain, length);
 return (0);
 }
-	
