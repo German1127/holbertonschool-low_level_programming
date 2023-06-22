@@ -1,14 +1,15 @@
 #include "main.h"
 #include <string.h>
 /**
- * main - Program entry point
- *
+ * _strlen - Program entry point
+ * @s: int
  * Return: Returns 0 if the execution was successful
  */
 int _strlen(char *s)
 {
-char *s = "My first strlen!";
-int length = strlen(chain);
-_putchar("chain length '%s' is: %d, chain, length);
-return (0);
+int i;
+int cont;
+for(i = 0; s[i]; != '\0'; i++);
+cont++;
+return (cont);
 }
