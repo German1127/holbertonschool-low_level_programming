@@ -1,8 +1,8 @@
 #include "main.h"
 /*
- *puts_half - XD
- *This function prints the second half of a string.
- *It takes a pointer to a character array as input.
+ *puts_half - Prints the second half of a string.
+ *Description: This function takes a pointer to a character
+ *str: Pointer to the character array.
  */
 void puts_half(char *str)
 {
