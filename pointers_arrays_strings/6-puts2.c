@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - check the code
- *
+ * char - check the code
+ *@str - XD
  * Return: Always 0.
  */
 void puts2(char *str)
@@ -15,5 +15,5 @@ void puts2(char *str)
 	for (b = 0; b <= a; b += 2)
 		_putchar(str[a]);
 
-	_putchar ('\n')
+	_putchar ('\n');
 }
