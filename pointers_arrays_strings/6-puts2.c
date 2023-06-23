@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * char - check the code
- *@str - XD
- * Return: Always 0.
+ * puts2 - Prints every second character of a string followed by a new line.
+ * @str: The input string.
+ *
+ * Return: Always void.
  */
 void puts2(char *str)
 {
