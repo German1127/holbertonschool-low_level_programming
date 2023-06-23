@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print - longitud
+ * print_rev - longitud
  * @s: int
  *
  * Return: void
