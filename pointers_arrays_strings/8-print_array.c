@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * print_array - XD
- *
+ * print_array - Prints the elements of an array.
+ * @a: Pointer to the array.
+ * @n: Number of elements in the array.
  */
 void print_array(int *a, int n)
 {
