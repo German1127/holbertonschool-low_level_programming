@@ -1,15 +1,15 @@
 #include <stdio.h>
-/*
- * main - Entry point.
+/**
+ * main - entry point
  *
- * Return: Always returns 0 (success).
+ * Return: always 0 (success)
  */
 int main(void)
 {
 	int x;
 
-	for (x = '0'; x <= 9; x++)
-	putchar(x);
-putchar('\n');
-return (0);
+	for (x = '0'; x <= '9'; x++)
+		putchar(x);
+	putchar('\n');
+	return (0);
 }
