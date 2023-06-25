@@ -18,7 +18,7 @@ clean:
 	$(RM) $(NAME) *~ \#*\# *.swp
 
 oclean:
-	%(RM) $(OBJ)
+	$(RM) $(OBJ)
 
 fclean: clean oclean
 
