@@ -1,17 +1,15 @@
 #include <stdio.h>
 /*
- * main - Main function of the program.
+ * main - Entry point.
  *
  * Return: Always returns 0 (success).
  */
 int main(void)
 {
-	int number;
+	int x;
 
-	for (number = 0; number < 10; number++)
-	{
-		putchar(number + '0');
-	}
-	putchar('\n');
-	return (0);
+	for (x = '0'; x <= 9; x++)
+	putchar(x);
+putchar('\n');
+return (0);
 }
