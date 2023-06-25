@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - entry point
  *
@@ -6,12 +7,12 @@
  */
 int main(void)
 {
-	int i;
+	int i = 0;
 
-	printf("base digits 10:\n");
-	for (i = 0; i < 10; i++)
+	while (i < 10)
 	{
-		printf("%c", '0' + i);
+		printf("%d\n", i)
+			i++;
 	}
 
 	return (0);
