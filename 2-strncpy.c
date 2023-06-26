@@ -1,4 +1,3 @@
-#include <string.h>
 #include "main.h"
 /**
  * _strncpy - Copia la cadena src en la cadena dest, limitada por n bytes.
@@ -12,18 +11,18 @@ char *_strncpy(char *dest, char *src, int n)i
 {
 	    int i;
 
-		for (i = 0; i < n && src[i] != '\0'; i++) 
+		for (i = 0; i < n && src[i] != '\0'; i++)
 		{
 			dest[i] = src[i];
 
 		}
 
-		while (i < n)i
+		while (i < n)
 		{
 			dest[i] = '\0';
 			i++;
 
 		}
 
-		return dest;
+		return (dest);
 }
