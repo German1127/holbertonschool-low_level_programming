@@ -7,7 +7,7 @@
  *
  * Return: Puntero a la cadena de destino (dest).
  */
-char *_strncpy(char *dest, char *src, int n)i
+char *_strncpy(char *dest, char *src, int n)
 {
 	    int i;
 
