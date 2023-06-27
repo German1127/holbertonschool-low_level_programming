@@ -3,6 +3,7 @@
  * reverse_array - Reverses the elements in an integer array.
  * @a: Pointer to the array.
  * @n: Number of elements in the array.
+ * reverse_array - XD
  *
  * Return: void
  */
