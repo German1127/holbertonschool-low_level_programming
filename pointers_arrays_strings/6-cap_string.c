@@ -1,8 +1,8 @@
 #include "main.h"
 /**
+ * cap_string - Write a function that capitalizes all words of a string.
  *
- *
- *
+ * return - return (s)
  *
  */
 char *cap_string(char *s)
@@ -20,7 +20,7 @@ cont = 0
 		if ((chek == 0 || s[chek - 1] == spc[cont]) && (s[chek] >= 'a' && s[chek] =< 'z'))
 			s[chek] -= 32;
 	
-	
+
 cont++;
 }
 chek++;
