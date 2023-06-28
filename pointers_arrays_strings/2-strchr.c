@@ -1,23 +1,20 @@
 #include "main.h"
 /**
- * _memcpy - Checker
+ * _strchr - Checker
+ * @s: A string
+ * @c: Target
  *
- * @src: A string
- * @dest: Another string
- * @n: An interger
- *
- * Return: x
+ * Return: pointer or NULL
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_strchr(char *s, char c)
 {
-	char *x = dest;
-
-	while (n--)
+	while (*s)
 	{
-		*dest = *src;
-		src++;
-		dest++;
+		if (c == *s)
+			return (s);
+		s++;
 	}
-	return (x);
+	if (c == *s)
+		return (s);
+	return ('\0');
 }
-
