@@ -1,25 +1,29 @@
 #include "main.h"
 /**
- * _strncpy - Checker
- * @dest: A string
- * @src: Another string
- * @n: An integer
- *
- * Return: A pointer to resulting string
- *
- */
-char *_strncpy(char *dest, char *src, int n)
+*
+*/
+unsigned int _strspn(char *s, char *accept)
 {
-	int i;
+	int count = 0, flag;
+	char *start = accept;
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	while (*s)
 	{
-		dest[i] = src[i];
+		flag = 0;
+		while (*accept)
+		{
+			if (*accept == *s)
+			{
+				count++;
+				flag = 1;
+				break;
+			}
+			accept++;
+		}
+		s++;
+		accept = start;
+		if (flag == 0)
+			break;
 	}
-	while (i < n)
-	{
-		dest[i] = '\0';
-		i++;
-	}
-	return (dest);
+	return (count);
 }
