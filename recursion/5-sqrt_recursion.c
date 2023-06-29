@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _sqrt - raiz cuadrada
- * @n: int
- * @m: int
- * Return: 0
+ * _sqrt - Calculates the square root of a number.
+ * @n: The number to calculate the square root of.
+ * @m: The current value being tested for square root.
+ * Return: The square root of the given number.
  */
 int _sqrt(int n, int m)
 {
@@ -14,11 +14,11 @@ int _sqrt(int n, int m)
 	else
 		return (_sqrt(n, m + 1));
 
-	/**
-	 * _sqrt_recursion - Calculates the square root of a number using recursion.
-	 * @n: int
-	 * Return: 0
-	 */
+/**
+ * _sqrt_recursion - Calculates the square root of a number using recursion.
+ * @n: The number to calculate the square root of.
+ * Return: The square root of the given number.
+ */
 }
 int _sqrt_recursion(int n)
 {
