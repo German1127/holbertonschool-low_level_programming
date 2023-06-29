@@ -2,15 +2,14 @@
 /**
  * _strlen_recursion - Function
  * @s: punter
- * Retutn - 0
+ * Return: return
  */
 int _strlen_recursion(char *s)
 {
-	int chek;
 
 	if (*s != '\0')
 	{
-		return (_strlen_recursion + 1);
+	return (1 + _strlen_recursion(s + 1));
 	}
 	return (0);
 }
