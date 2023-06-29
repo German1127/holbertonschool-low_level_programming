@@ -15,7 +15,7 @@ int _sqrt(int n, int m)
 		return (_sqrt(n, m + 1));
 
 	/**
-	 * _sqrt_recursion - vuelve a inicair
+	 * _sqrt_recursion - Calculates the square root of a number using recursion.
 	 * @n: int
 	 * Return: 0
 	 */
