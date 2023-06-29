@@ -15,7 +15,7 @@ int _sqrt(int n, int m)
 		return (_sqrt(n, m + 1));
 
 	/**
-	 * _sqrt_recursion - xd
+	 * _sqrt_recursion - vuelve a inicair
 	 * @n: int
 	 * Return: 0
 	 */
