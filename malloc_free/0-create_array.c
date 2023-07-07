@@ -25,6 +25,6 @@ while (n < size)
 	n[ar] = c;
 	ar++;
 }
-return (n);
+return (ar);
 
 }
