@@ -9,22 +9,22 @@
  */
 char *create_array(unsigned int size, char c)
 {
-unsigned int n = 0;
-char *ar;
+	unsigned int n = 0;
+	char *ar;
 
-ar = malloc(size * sizeof(char));
+	ar = malloc(size * sizeof(char));
 
-if (ar == NULL)
-	return (NULL);
+	if (ar == NULL)
+		return (NULL);
 
-if (size == 0)
-	return (NULL);
+	if (size == 0)
+		return (NULL);
 
-while (n < size)
-{
-	n[ar] = c;
-	ar++;
-}
+	while (n < size)
+	{
+		ar[n] = c;
+		n++;
+	}
 return (ar);
 
 }
