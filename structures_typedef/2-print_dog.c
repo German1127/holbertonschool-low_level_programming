@@ -21,9 +21,9 @@ void print_dog(struct dog *d)
 	{
 		printf("Name: %s\n", d->name);
 	}
-	if (d->age == 0.0)
+	if (d->age == NULL)
 	{
-		printf("%f, Age: 0.000000\n", 0.0);
+		return (NULL);
 	}
 	else
 	{
